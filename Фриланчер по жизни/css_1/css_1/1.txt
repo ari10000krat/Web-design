@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Часть 1 (Синтаксис + обнуление)</title>
+
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, veritatis? Cumque nam quae beatae, et eveniet nihil nobis nisi necessitatibus? Ducimus similique aut ab cumque repellat culpa iusto veritatis incidunt.
+    </p>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, cumque obcaecati. Iste, ex. Itaque facere temporibus doloribus. Blanditiis nisi ad ipsam a quaerat, quod laudantium, cum minima placeat alias hic.</p>
+    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ratione nesciunt, accusantium odit aliquid quisquam autem, placeat harum enim sit beatae tempore error, numquam eaque repudiandae assumenda! Quia, tempora aperiam?</h2>
+</body>
+
+</html>
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -boxsizing:border-box;
+}
