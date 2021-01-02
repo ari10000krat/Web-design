@@ -1,0 +1,14 @@
+span{
+    padding:10px;
+    background-color: bisque;
+    border: 2px dashed gray;
+    margin:10px;
+    display:  inline-block;
+    vertical-align: middle;
+}
+p{
+    background-color: yellowgreen;
+    min-width: 10%;
+    max-width: 90%;
+    padding: 0px;
+}
